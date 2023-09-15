@@ -1,0 +1,54 @@
+*{
+    font-family: Helvetica;
+}
+/*formatownie selektorów, czcinka Hel...*/
+#baner, #stopka{
+    background: #00838f;
+    color: white;
+    padding: 5px;
+    font-size: 130%;
+    text-align: center;
+}
+/*kolor tla, kolor czcionki, marginesy, rozmiar czcionki, wyrowanie tekstu*/
+#lewy1, #lewy2{
+    background: #efefef;
+    width: 55%;
+    float: left;
+}
+/*dla obu blokow lewych kolor tla, szerokość */
+#lewy1{
+    height: 150px;
+}
+#lewy2{
+    height: 300px;
+}
+/* wysokosc*/
+#prawy{
+    background: #4fb3bf;
+    width: 45%;
+    height: 450px;
+    text-align: center;
+    float: right;
+}
+/* kolor, wysoksc, szerokosc, wyrowanie*/
+#stopka{
+    clear: both;
+}
+img{
+    box-shadow: 10px 10px 7px dimgray;
+    margin: 20px;
+}
+table, td, th{
+    border: 1px solid #4fb3bf;
+    border-collapse: collapse;
+}
+table{
+    margin: auto;
+    width: 80%;
+}
+td, th{
+    padding: 4px;
+}
+tr :hover{
+    background-color: #4fb3bf;
+}
